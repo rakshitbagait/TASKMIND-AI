@@ -1,5 +1,5 @@
 # TaskMind AI
-
+![alt text](image-1.png)
 ## Overview
 
 TaskMind AI is an AI-powered task management system that transforms unstructured natural language input into structured, actionable data. The application integrates a React frontend, Flask backend, MySQL database, and an AI model to automatically classify tasks into categories and priorities.
