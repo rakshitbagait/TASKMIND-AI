@@ -54,7 +54,7 @@ def create_task():
     data = request.json
     title = data["title"]
 
-    # 🔥 Call AI
+    # the ai is called here 
     ai_response = classify_task(title)
 
     try:
@@ -66,7 +66,7 @@ def create_task():
         category = "General"
         priority = "Medium"
 
-    # Store in DB
+    # Store in DB of task mind ai 
     cursor.execute(
         "INSERT INTO tasks (title, category, priority, status) VALUES (%s, %s, %s, %s)",
         (title, category, priority, "Pending")
